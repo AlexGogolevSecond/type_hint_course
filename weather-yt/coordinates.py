@@ -10,5 +10,5 @@ class Coordinates:
 
 
 def get_gps_coordinates() -> Coordinates:
-    """Returns current coordinates using MacBook GPS"""
+    """Returns current coordinates using api"""
     return Coordinates(longitude=10, latitude=20)
